@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVELOPING A RANSOMWARE AWARENESS GAME FOR INTERACTIVE LEARNING IN CYBER SECURITY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #324;
+            color: white;
+            text-align: center;
+            padding: 40px 20px; /* Increased padding for better spacing */
+        }
+        header h1 {
+            font-size: 2.5em; /* Bigger font size */
+            font-weight: bold; /* Bold font */
+            color: white;
+            letter-spacing: 2px; /* Add some spacing between letters */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Subtle shadow effect */
+            line-height: 1.4;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #555;
+            cursor: pointer;
+        }
+        p, ul {
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            padding: 0 20px;
+            color: #444;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 0 0 10px 40px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        blockquote {
+            background-color: #e0f7fa;
+            padding: 10px;
+            border-left: 5px solid #00796b;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DEVELOPING A RANSOMWARE AWARENESS GAME FOR INTERACTIVE LEARNING IN CYBER SECURITY</h1>
+    </header>
+
+    <div class="container">
+        <h2 onclick="toggleSection('BRIEF INTRODUCTION')">BRIEF INTRODUCTION</h2>
+       <p class=MsoNormal><b>BRIEF INTRODUCTION<o:p></o:p></b></p>
+            <p>Ransomware attacks have become one of the most significant
+cybersecurity threats in recent years, with their frequency and complexity
+rising alarmingly (Yin et al., 2023). These attacks often leave individuals and
+organizations vulnerable, leading to substantial financial and data losses.
+Traditional methods of raising awareness about ransomware, such as lectures or
+informational brochures, often fail to engage users, particularly those who are
+non-technical.</p>
+<p>To address this gap, there is a growing need for more
+innovative and engaging educational tools. A game-based ransomware awareness
+application offers an interactive and immersive way to educate users about the
+dangers of ransomware. By simulating real-world scenarios in a controlled
+environment, this approach not only makes learning about ransomware prevention
+more engaging but also enhances retention and understanding, empowering users
+to better recognize and respond to potential threats (Barack, 2021).</p>
+        </div>
+
+        <h2 onclick="toggleSection('PROBLEM STATEMENT')">PROBLEM STATEMENT</h2>
+        <div id="PROBLEM STATEMENT">
+            <p>Despite the invention of various mitigation strategies,
+ransomware still poses a growing threat to both individuals and businesses,
+with attacks becoming increasingly prevalent and complex (Li &amp; Liao, 2021; <span
+class=SpellE>Galinkin</span>, 2021). The primary issue lies in the lack of
+effective cybersecurity education for non-technical users, leaving them
+unprepared to identify and mitigate these threats (<span class=SpellE>Angafor</span>
+et al., 2024).</p>
+<p class=MsoNormal>Traditional educational methods fail to engage and inform
+this demographic, leading to a poor understanding of essential cybersecurity concepts
+(<span class=SpellE>Zisis</span> <span class=SpellE>Batzos</span> et al.,
+2023).</p>
+<p class=MsoNormal>Therefore, there is a pressing need for innovative and
+practical educational tools to enhance ransomware awareness and promote cyber
+safety among these users.</p>
+        </div>
+
+        
+        <h2 onclick="toggleSection('AIM AND OBJECTIVES')">AIM AND OBJECTIVES</h2>
+        <div id="AIM AND OBJECTIVES">
+	<p>This study aims to develop an Educational user-friendly
+Game-based application for Enhancing Ransomware Attack Awareness among users.</p>
+	<p>It would be achieved by the following objectives;</p>
+            	<P>i. Design a user-friendly game-based application to improve user awareness of ransomware</p>
+            	<p>ii. Implement engaging gameplay mechanics that simulate real world scenarios related to ransomware attacks.</p>
+           	<p>iii. Evaluate the effectiveness of the mobile game application to assess awareness of ransomware.</p>
+                   </div>
+
+
+	<h2 onclick="toggleSection('METHODOLOGY')">METHODOLOGY</h2>
+        <div id="METHODOLOGY">
+	<p>The game was developed by following the steps shown in the figure below;</p>
+
+<p class=MsoNormal align=center style='text-align:center'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_s1032" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:37.15pt;
+ margin-top:18.95pt;width:468pt;height:274.1pt;z-index:251658240;visibility:visible;
+ mso-wrap-style:square;mso-width-percent:0;mso-height-percent:0;
+ mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+ mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:margin;mso-position-vertical:absolute;
+ mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
+ mso-width-relative:page;mso-height-relative:page'>
+ <v:imagedata src="Project%20Summary%20Upload%20(GitHub)_files/image001.jpg"
+  o:title=""/>
+ <w:wrap anchorx="margin"/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+
+<table cellpadding=0 cellspacing=0 align=left>
+ <tr>
+  <td width=50 height=25></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=624 height=365
+  src="Project%20Summary%20Upload%20(GitHub)_files/image015.jpg" v:shapes="Picture_x0020_1"></td>
+ </tr>
+</table>
+
+</span><![endif]><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<br style='mso-ignore:vglayout' clear=ALL>
+        </div>
+
+
+<h2 onclick="toggleSection('EVALUATION')">EVALUATION</h2>
+        <div id="EVALUATION">
+	<p>A mixed-method approach was adopted to evaluate the game. The approach includes three steps evaluation process;</p>
+                <p><b>i. a pre-experiment questionnaire</b> to assess the user’s 		understanding of the cyber security threat ransomware,</p>
+		<p><b>ii. Gameplay</b> – Ransom Wrangler, aims to improve user 		awareness against ransomware cyber security threat, followed by 		usability test using System Usability Scale (SUS) questionnaire to 		assess user’s satisfaction of the game design,</p>
+		<p><b>iii. Post experiment questionnaire</b> to evaluate the Ransom Wrangler effectiveness in improving user education and awareness 		against the ransomware.</p>
+        </div>
+
+ <h2 onclick="toggleSection('RESULTS OF EVALUATION')">RESULTS OF EVALUATION</h2>
+        <div id="RESULTS OF EVALUATION">
+	<p>1. PRE-TEST ASSESSMENT</p>
+	<p>The Pre-test quiz assessment had 73 respondents, as shown
+below in Figure 4.1. Each of the respondents answered 10 basic questions on
+Ransomware Attacks, to test their knowledge about the attacks. Each question
+was graded 10, making the quiz on a scale of 100.<span
+style='mso-spacerun:yes'>  </span>After the quiz, it was discovered that 47
+which is equivalent to 64.38% of the respondents got the score range of 0 – 40,
+while the remaining 26 (which is equivalent to 35.62%) scored between 50 -80.
+Hence, the knowledge level of users about Ransomware attacks based on the
+response was an average of 38.36%.</p>
+
+	<p>2. GAME PLAY/SYSTEM USABILITY SCALE TEST</p>
+	<p>The SUS questionnaire was filled by 50 respondents, which
+ranges from students, to business owners, to corporate employee, as shown in
+Table 4.6. The S/N represents the Respondents Identity (ID). The minimum score
+for the 50 respondents was 67.5, while the maximum was 100.<span
+style='mso-spacerun:yes'>  </span>The overall average score was 92.5.</p>
+
+	<p>3.  POST-TEST ASSESSMENT</p>
+	<p>The post-test quiz assessment was carried out to test the
+user’s awareness level but after their interaction with the mobile game. 75
+people responded to the quiz, as shown in Figure 4.2. The demographics of the
+respondents is shown in Table 4.3 below. The quiz contains 10 questions, with
+each question carrying 10 points. The breakdown of the scores are shown below
+in Table 4.4. It was discovered that out of the 75 respondents, 3 people got 40
+and below, and these 3 people indicated that they did not interact with the
+game. The remaining 72 respondents got between 50 and 100 points, with total
+average of 83.87%.</p>
+        </div>
+
+        <blockquote>
+            <p><strong>KEY FINDINGS:</strong></p>
+	<p>To a large extent, the game positively impacted ransomware awareness and knowledge among the participants; therefore, achieving the project goals. Large values of user engagement and usability mean the effectiveness of the game in educating users and keeping attention on the screen.</p>
+<p>The project contributes to the growing literature supporting the hypothesis that the use of more interactive forms of learning is beneficial for cybersecurity training.</p>
+        </blockquote>
+    </div>
+
+
+<h2 onclick="toggleSection('SCREENSHOTS OF THE GAME APPLICATION')">SCREENSHOTS OF THE GAME APPLICATION</h2>
+        <div id="SCREENSHOTS OF THE GAME APPLICATION">
+	<p>Below are few documentations of the operation of the ransomware awareness mobile game – Ransom Wrangler. The screenshots of screen activities are presented below;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><span
+style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><span
+style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><span
+style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_12" o:spid="_x0000_s1031" type="#_x0000_t75" style='position:absolute;
+ left:0;text-align:left;margin-left:-6.25pt;margin-top:-7.9pt;width:135.3pt;
+ height:253.1pt;z-index:251660288;visibility:visible;mso-wrap-style:square;
+ mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;
+ mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+ mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:text;mso-position-vertical:absolute;
+ mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
+ mso-width-relative:page;mso-height-relative:page'>
+ <v:imagedata src="Project%20Summary%20Upload%20(GitHub)_files/image003.jpg"
+  o:title=""/>
+</v:shape><v:shape id="Picture_x0020_14" o:spid="_x0000_s1030" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:314.05pt;
+ margin-top:-8pt;width:135.3pt;height:253.1pt;z-index:251662336;visibility:visible;
+ mso-wrap-style:square;mso-width-percent:0;mso-height-percent:0;
+ mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+ mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:margin;mso-position-vertical:absolute;
+ mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
+ mso-width-relative:page;mso-height-relative:page'>
+ <v:imagedata src="Project%20Summary%20Upload%20(GitHub)_files/image004.jpg"
+  o:title=""/>
+ <w:wrap anchorx="margin"/>
+</v:shape><v:shape id="Picture_x0020_16" o:spid="_x0000_s1026" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:150.45pt;
+ margin-top:276.9pt;width:136.4pt;height:255.75pt;z-index:251664384;
+ visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;
+ mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;
+ mso-position-horizontal:absolute;mso-position-horizontal-relative:text;
+ mso-position-vertical:absolute;mso-position-vertical-relative:text;
+ mso-width-percent:0;mso-height-percent:0;mso-width-relative:page;
+ mso-height-relative:page'>
+ <v:imagedata src="Project%20Summary%20Upload%20(GitHub)_files/image005.jpg"
+  o:title=""/>
+</v:shape><v:shape id="Picture_x0020_18" o:spid="_x0000_s1027" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:308.1pt;
+ margin-top:276.9pt;width:136.55pt;height:255.75pt;z-index:251665408;
+ visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;
+ mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;
+ mso-position-horizontal:absolute;mso-position-horizontal-relative:text;
+ mso-position-vertical:absolute;mso-position-vertical-relative:text;
+ mso-width-percent:0;mso-height-percent:0;mso-width-relative:page;
+ mso-height-relative:page'>
+ <v:imagedata src="Project%20Summary%20Upload%20(GitHub)_files/image006.jpg"
+  o:title=""/>
+</v:shape><v:shape id="Picture_x0020_15" o:spid="_x0000_s1028" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:-9.65pt;
+ margin-top:276.9pt;width:136.4pt;height:255.75pt;z-index:251663360;
+ visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;
+ mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;
+ mso-position-horizontal:absolute;mso-position-horizontal-relative:text;
+ mso-position-vertical:absolute;mso-position-vertical-relative:text;
+ mso-width-percent:0;mso-height-percent:0;mso-width-relative:page;
+ mso-height-relative:page'>
+ <v:imagedata src="Project%20Summary%20Upload%20(GitHub)_files/image007.jpg"
+  o:title=""/>
+</v:shape><v:shape id="Picture_x0020_13" o:spid="_x0000_s1029" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:155.15pt;
+ margin-top:-7.95pt;width:135.3pt;height:253.1pt;z-index:251661312;
+ visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;
+ mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;
+ mso-position-horizontal:absolute;mso-position-horizontal-relative:margin;
+ mso-position-vertical:absolute;mso-position-vertical-relative:text;
+ mso-width-percent:0;mso-height-percent:0;mso-width-relative:page;
+ mso-height-relative:page'>
+ <v:imagedata src="Project%20Summary%20Upload%20(GitHub)_files/image008.jpg"
+  o:title=""/>
+ <w:wrap anchorx="margin"/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+relative;z-index:251660288'><span style='left:0px;position:absolute;left:-13px;
+top:-11px;width:612px;height:721px'>
+
+<table cellpadding=0 cellspacing=0 align=left>
+ <tr>
+  <td width=0 height=0></td>
+  <td width=5></td>
+  <td width=177></td>
+  <td width=3></td>
+  <td width=29></td>
+  <td width=6></td>
+  <td width=176></td>
+  <td width=4></td>
+  <td width=24></td>
+  <td width=8></td>
+  <td width=174></td>
+  <td width=6></td>
+ </tr>
+ <tr>
+  <td height=337></td>
+  <td></td>
+  <td colspan=2 align=left valign=top><img width=180 height=337
+  src="Project%20Summary%20Upload%20(GitHub)_files/image016.jpg" v:shapes="Picture_x0020_12"></td>
+  <td colspan=2></td>
+  <td colspan=2 align=left valign=top><img width=180 height=337
+  src="Project%20Summary%20Upload%20(GitHub)_files/image017.jpg" v:shapes="Picture_x0020_13"></td>
+  <td colspan=2></td>
+  <td colspan=2 align=left valign=top><img width=180 height=337
+  src="Project%20Summary%20Upload%20(GitHub)_files/image018.jpg" v:shapes="Picture_x0020_14"></td>
+ </tr>
+ <tr>
+  <td height=43></td>
+ </tr>
+ <tr>
+  <td height=341></td>
+  <td colspan=2 align=left valign=top><img width=182 height=341
+  src="Project%20Summary%20Upload%20(GitHub)_files/image019.jpg" v:shapes="Picture_x0020_15"></td>
+  <td colspan=2></td>
+  <td colspan=2 align=left valign=top><img width=182 height=341
+  src="Project%20Summary%20Upload%20(GitHub)_files/image020.jpg" v:shapes="Picture_x0020_16"></td>
+  <td colspan=2></td>
+  <td colspan=2 align=left valign=top><img width=182 height=341
+  src="Project%20Summary%20Upload%20(GitHub)_files/image021.jpg" v:shapes="Picture_x0020_18"></td>
+ </tr>
+</table>
+
+</span></span><![endif]><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<br style='mso-ignore:vglayout' clear=ALL>
+	</div>
+
+<h2 onclick="toggleSection('RECOMMENDATIONS')">RECOMMENDATIONS</h2>
+        <div id="RECOMMENDATIONS">
+<p><b>For the game improvement, it is recommended that the researcher</b></p>
+	   <p>i. Understand User Interaction</p>
+	   <p>ii. Consider Game Modifications</p>
+	   <p>iii. Expand Game Content</p>
+	   <p>iv. Enhance Educational Potential</p>
+<p><b>For future research,</b></p>
+	  <p>i. Verify impact on a broader audience</p>
+	  <p>ii. Understand different user interaction with the game</p>
+	  <p>iii. Expand Game contents</p>
+	  <p>iv. Enhance Educational Reach</p>
+<p><b>For implementation in Education,</b></p>
+	  <p>i. Incorporate into school curricula</p>
+	  <p>ii. Collaborate with institutions</p>
+	  <p>iii. Promote in awareness campaigns</p>
+	  <p>iv. Enhance educational impact</p>
+	</div>
+
+<h2 onclick="toggleSection('CONCLUSION')">CONCLUSION</h2>
+        <div id="CONCLUSION">
+            <p>Consequently, the aim and objectives of the project are met
+by the outcomes of the project: design understanding, neat interfaces, game
+elements, and educational assessment.</p>
+        </div>
+
+    <footer>
+        <p>Contact us at: <a href="mailto:info@ransomwrangler.com" style="color: #4CAF65;">info@ransomwrangler.com</a></p>
+        <p>&copy; 2024 Ransom Wrangler Project</p>
+    </footer>
+
+    <script>
+        function toggleSection(id) {
+            const section = document.getElementById(id);
+            section.style.display = section.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
